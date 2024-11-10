@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="a" class="logo"><span>Habeeb Haliru</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn"><a href="https://github.com/asurafeng3012" target="_blank">Visit Github</a></button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="headshot.jpg">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Habeeb Haliru</h1>
+                    <span>Frontend Developer</span>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="habeebhaliruresume.pdf" download class="btn">Download CV</a>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/asurafeng3012" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/habeeb-haliru-894b7524a/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h3>5 Years</h3>
+                    <p>I have extensive experience in building interactive and responsive user interfaces 
+                        using HTML, CSS, and JavaScript. My expertise extends to developing scalable web 
+                        applications with React, creating component-based architecture that enhances code 
+                        reusability and performance.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Backend Development</span>
+                    <h3>5 Years</h3>
+                    <p>My backend development experience includes building robust server-side logic using Java 
+                        and creating efficient database management solutions with MySQL. 
+                        I have also leveraged jQuery to enhance server-client interaction and build dynamic, 
+                        feature-rich web applications.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Cybersecurity</span>
+                    <h3>5 Years</h3>
+                    <p>I have a comprehensive background in cybersecurity practices, employing tools such as 
+                        Metasploit for penetration testing, Nmap for network scanning, and John the Ripper 
+                        for password cracking. Additionally, I am skilled in using SSH for secure communication 
+                        and analyzing DNS to identify potential vulnerabilities and ensure network safety.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <span>Mobile Development</span>
+                    <h3>5 Years</h3>
+                    <p>I have had expeirence with HTML/CSS and Javascraipt. 
+                        Web Design as well</p>
+                </div>
+            </div>
+
+            <img src="headshot.jpg">
+        </div>
+    </section>
+
+    <section id="projects" class="project">
+
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="webdesign.png">
+                <h3>Project X</h3>
+                <p>This is a web design I put my blood and soul into</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="webdesign.png">
+                <h3>Project Y</h3>
+                <p>This is a web design I put my blood and soul into</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="webdesign.png">
+                <h3>Project Z</h3>
+                <p>This is a web design I put my blood and soul into</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+
+           <!-- Form with Formspree endpoint -->
+        <form action="https://formspree.io/f/mwpkozyn" method="POST">
+            <div class="input">
+                <input type="email" name="email" placeholder="Your Email" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© All Rights Reserved | Habeeb Haliru</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
